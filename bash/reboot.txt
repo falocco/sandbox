@@ -1,0 +1,3 @@
+#for the shell make alt^f2
+gnome-terminal
+sudo reboot
