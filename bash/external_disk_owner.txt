@@ -1,0 +1,2 @@
+#to use an external disk you mush be the owner
+sudo chown -R falocco /media/Serena 
