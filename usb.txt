@@ -1,0 +1,7 @@
+#mount USB in remote
+mkdir USB
+mount /dev/sdc
+sudo mount /dev/sdc1 USB
+ls USB
+#unmount usb in remote
+sudo umount USB
