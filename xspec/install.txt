@@ -1,0 +1,19 @@
+#install xspec from source code
+#wget heasarc.gsfc.nasa.gov/FTP/software/lheasoft/release/direct/heasoft-6.13src.tar.gz
+#install preliminary software
+sudo	apt-get install gcc g++ gfortran
+sudo    apt-get install libncurses5-dev
+sudo    apt-get install xorg-dev
+sudo    apt-get install perl-modules
+cd /usr/lib/
+ln -s libncurses.so.5 libncurses.so
+  
+#to install xspec, make:
+cd BUILD
+./configure
+make
+sudo make install |tee install.log
+#installation completed
+#insert in you .bashrc the lines: 
+#export HEADAS='PATH OF YOUR XSPEC'
+#alias heainit=". $HEADAS /headas-init.sh"
