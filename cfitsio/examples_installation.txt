@@ -1,0 +1,30 @@
+#download the software of the examples here:
+heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples/cexamples.tar
+
+
+#########run these lines of code
+
+CFLAGS=-Wall
+CFITSIO=/home/link/to/your/downloaded/stuff/libcfitsio.a
+
+gcc $CFLAGS -o   imcopy imcopy.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   cookbook cookbook.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   fitscopy fitscopy.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   compress_fits compress_fits.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   imlist imlist.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   listhead listhead.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   modhead modhead.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   liststruc liststruc.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   tablist tablist.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   tabcalc tabcalc.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   uncompress_fits uncompress_fits.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   tabselect tabselect.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   imstat imstat.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   tabmerge tabmerge.c $CFITSIO -L. -lcfitsio -lm
+gcc $CFLAGS -o   imarith imarith.c $CFITSIO -L. -lcfitsio -lm
+
+
+
+##############you will obtain this error:
+compress_fits.c:(.text+0x488): undefined reference to `fits_comp_img'
+#################
