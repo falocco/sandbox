@@ -1,0 +1,6 @@
+########once you have idl, download the astrolibraries here:
+
+# idlastro.gsfc.nasa.gov/ftp/astron.tar.gz and then put them in you working directory and run:
+
+tar -xvf astron.tar.gz 
+
