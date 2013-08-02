@@ -1,0 +1,3 @@
+####useful thigs can be done with sed, for ex.:
+#####you can add a - before each line of a file
+sed -e' s/^/-/' inputfile
