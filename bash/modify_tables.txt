@@ -1,0 +1,2 @@
+#if you want to modify a table, e.g., ignore the header beginning with #, write only column 1 and 4, just type:
+grep -v "#" yourinputtable.txt | awk -F' ' '{print"   "$1"  "$4}' > youroutputtable.txt
