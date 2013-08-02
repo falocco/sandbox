@@ -1,0 +1,1 @@
+rsync -avzhP user@remotehost://remote/dir local/dir
