@@ -1,0 +1,2 @@
+if you need to use mode memory in topcat, the command is:
+java -Xmx512M -jar /Applications/topcat-full.jar
