@@ -1,3 +1,4 @@
 #is my pc a 32 or 64 bit computer?
 uname -m
  i686 ----> it is a 32 bit PC
+x86_64 ---> it is a 64 bit PC
