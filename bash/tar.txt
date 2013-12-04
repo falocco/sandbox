@@ -1,0 +1,4 @@
+tar czvf outputfile.tar.gz inputdir/*    #per comprimere i file in inputdir in un file outputfile.tar.gz
+tar -xvf file.tar.gz       #per decomprimere il file file.tar.gz che non verrà cancellato nell'operazione
+tar tzf file.tar.gz    #per fare una lista delle cose compresse all'interno del file file.tar.gz
+
