@@ -1,0 +1,2 @@
+this command is useful to check for problems in your hard disk
+sudo badblocks -v /var/data/ > bad-blocks
